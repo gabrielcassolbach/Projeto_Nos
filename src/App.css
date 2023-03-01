@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.searchs{
+  color: #FFB703;
+  font-size: 2em;
+  top: 100px;
+  left: 1400px;
+  position: absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo_image{
+  height: 40px;
+  width: 200px;
+  top: 80px;
+  left: 100px;
+  position: absolute;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3em;
+  height: 100px;
+  width: 700px;
+  top: 200px;
+  left: 760px;
+  position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.artist{
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  top: 400px;
+  left: 760px;
+  position: absolute;
 }
 
-.App-link {
-  color: #61dafb;
+.artist_input{
+  width: 250px;
+  top: 430px;
+  left: 760px;
+  position: absolute;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.music{
+  color: rgb(255, 255, 255);
+  top: 500px;
+  left: 760px;
+  position: absolute;
+}
+
+.music_input{
+  width: 250px;
+  top: 530px;
+  left: 760px;
+  position: absolute;
+}
+
+.page{
+  background-image: linear-gradient(to bottom, #023047, #000000);
+  width: 1920px;
+  height: 980px;
 }
