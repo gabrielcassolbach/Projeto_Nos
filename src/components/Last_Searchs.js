@@ -3,8 +3,8 @@ import '../App.js'
 
 export default function Last_Searchs(){
     return(
-        <header className = "searchs"> 
+        <button className = "last_searchs"> 
             Últimas Buscas
-        </header>
+        </button>
     )
 }
