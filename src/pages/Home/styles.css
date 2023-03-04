@@ -1,0 +1,133 @@
+.background {
+    background-image: linear-gradient(to bottom, #023047, #000000);
+    position: absolute;
+    width: 1920px;
+    height: 980px;
+}
+
+.lendoMusica {
+    position: absolute;
+    width: 300px;
+    height: 40.59px;
+    left: 183px;
+    top: 124px;
+}
+
+.Artista {
+    position: absolute;
+    left: 30.35%;
+    right: 65.35%;
+    top: 42.32%;
+    bottom: 54.92%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+
+.Musica {
+    /* Música */
+    position: absolute;
+    left: 30.35%;
+    right: 65.21%;
+    top: 52.6%;
+    bottom: 44.64%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.Input_Artista {
+    position: absolute;
+    left: 30.35%;
+    right: 57.29%;
+    top: 46.41%;
+    bottom: 51.16%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #828282;
+}
+
+.Input_Musica {
+
+    position: absolute;
+    left: 30.35%;
+    right: 56.94%;
+    top: 56.69%;
+    bottom: 40.88%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #828282;
+
+}
+
+.Titulo {
+    position: absolute;
+    width: 358px;
+    height: 42px;
+    left: 541px;
+    top: 236px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.inputButton {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 274px;
+    height: 50px;
+    left: 583px;
+    top: 596px;
+
+    border: 1px solid #FFB703;
+    border-radius: 4px;
+}
+
+.LastSearchFormatation {
+    position: absolute;
+    width: 219px;
+    height: 25px;
+    left: 1059px;
+    top: 139px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFB703;
+}
+
