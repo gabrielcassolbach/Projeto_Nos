@@ -4,20 +4,48 @@
     height: 100vh;
 }
 
-.lendoMusica {
-    position: absolute;
-    width: 300px;
-    height: 40.59px;
-    left: 183px;
-    top: 124px;
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    padding-top: 124px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    padding-top: 72px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 43.5%;    
+}
+
+a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FFB703;
+
+    text-decoration: none;
 }
 
 .Artista {
-    position: absolute;
-    left: 30.35%;
-    right: 65.35%;
-    top: 42.32%;
-    bottom: 54.92%;
+
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -31,12 +59,6 @@
 }
 
 .Musica {
-    /* Música */
-    position: absolute;
-    left: 30.35%;
-    right: 65.21%;
-    top: 52.6%;
-    bottom: 44.64%;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -49,11 +71,7 @@
 }
 
 .Input_Artista {
-    position: absolute;
-    left: 30.35%;
-    right: 57.29%;
-    top: 46.41%;
-    bottom: 51.16%;
+
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -68,12 +86,6 @@
 
 .Input_Musica {
 
-    position: absolute;
-    left: 30.35%;
-    right: 56.94%;
-    top: 56.69%;
-    bottom: 40.88%;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -87,11 +99,7 @@
 }
 
 .Titulo {
-    position: absolute;
-    width: 358px;
-    height: 42px;
-    left: 541px;
-    top: 236px;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -102,24 +110,11 @@
 }
 
 .inputButton {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 274px;
-    height: 50px;
-    left: 583px;
-    top: 596px;
-
     border: 1px solid #FFB703;
     border-radius: 4px;
 }
 
 .LastSearchFormatation {
-    position: absolute;
-    width: 219px;
-    height: 25px;
-    left: 1059px;
-    top: 139px;
 
     font-family: 'Open Sans';
     font-style: normal;

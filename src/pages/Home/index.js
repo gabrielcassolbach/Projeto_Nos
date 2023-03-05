@@ -9,7 +9,7 @@ import './styles.css'
 
 const Home = () => {
     return(
-        <body className = "background"> 
+        <body className="background"> 
            <Logo/>
            <MainTitle/>
            <Input/>
