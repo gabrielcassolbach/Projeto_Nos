@@ -1,7 +1,7 @@
 .background {
     background: linear-gradient(180deg, #023047 0%, #000000 100%);
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 .content {
@@ -13,9 +13,27 @@
 
 .header_main_page {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 124px;
-    align-items: center;
+    align-items: center;    
     justify-content: space-between;
+}
+
+@media (max-width: 400px)
+{
+  *
+   {
+    font-size: 12px;
+   }
+}
+
+ 
+@media (max-width: 600px)
+{
+  .header_main_page
+   {
+    justify-content: center;
+   }
 }
 
 .body_main_page {
@@ -38,7 +56,7 @@ a {
     font-size: 24px;
     line-height: 33px;
     text-align: center;
-    
+
     color: #FFB703;
 
     text-decoration: none;
@@ -68,8 +86,6 @@ a {
 }
 
 .Input_Artista {
-
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -77,8 +93,15 @@ a {
     line-height: 22px;
 
     /* identical to box height */
-
-    color: #828282;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 40px;
 }
 
 .Input_Musica {
@@ -90,13 +113,18 @@ a {
     line-height: 22px;
 
     /* identical to box height */
-
-    color: #828282;
-
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .Titulo {
-
+    margin-bottom: 90px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -104,15 +132,26 @@ a {
     line-height: 44px;
     text-align: center;
     color: #FFFFFF;
-}
+} 
 
 .inputButton {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: transparent;
 
-    border: 1px solid #FFB703;
+    border: 2px solid #FFB703;
     border-radius: 4px;
+    color: white;
+}
+
+#Lupa_main
+{
+    margin-right: 10px;
 }
 
 .LastSearchFormatation {
@@ -126,6 +165,9 @@ a {
     color: #FFB703;
 }
 
-.height_search_button_main_page{
+.input_button_menu{
+
     padding-top: 100px;
+    display: flex;
+    justify-content: center;
 }

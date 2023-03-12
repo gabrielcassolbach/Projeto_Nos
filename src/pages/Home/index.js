@@ -19,7 +19,7 @@ const Home = () => {
                             Buscar Letra
                         </div>
                         <Input/>
-                        <div className="height_search_button_main_page">
+                        <div className="input_button_menu">
                             <SearchButton/>
                         </div>
                     </div>

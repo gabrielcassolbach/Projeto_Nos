@@ -1,73 +1,74 @@
-.background_search1 {
+.background_search2 {
     background: linear-gradient(180deg, #023047 0%, #000000 100%);
     min-width: 100vw;
     min-height: 100vh;
-} 
+}
 
-.content_search1 {
-    width: 30%;
+.content_search2 {
+    width: 45%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-}
-
-.logo_search1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 130px;
-}
-
-.search1_body {
-    display: flex;
     justify-content: center;
 }
 
-.main_content_search1 {
-    padding-top: 132px;
+.img1 {
+    margin: 0 auto;
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 80px;
     flex-direction: column;
+    justify-content: center;
 }
 
-.text2_search1 {
-    padding-top: 302px;
+.img2 {
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    text-align: center;
     flex-direction: column;
-    width: 300px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    color: #FFFFFF;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
-.text1_search1 {
+.text1 {
+    margin-top: 150px;
     display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+    text-align: center;
+
     color: #FFFFFF;
-} 
- 
-.new_search_button_search1 {
+}
+
+.text2 {
+    display: flex;
+    margin: 0 auto;
+    width: 65%;
+    margin-bottom: 40px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.new_search_button_search2 {
 
     align-items: center;
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 30%;
     margin: 0 auto;
     justify-content: center;
-    padding: 3%;
+    padding: 1%;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -76,27 +77,22 @@
     line-height: 22px;
 
     background-color: transparent;
-    border-radius: 0%;
-    border-color: #FFB703; 
+    border-radius: 3%;
+    border-color: #FFB703;
+    border-width: 1px; 
     /* identical to box height */
 
     color: #FFB703;
 }
 
-.nova_busca_search1{
+.lupa_search2{
     display: flex;
-    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.nova_busca_search2{
+    display: flex;
+    width: 60%;
     margin: 0 auto;
 }
-
-.lupa_search1{
-    display: flex;
-    padding-left: 30px;
-}
-
-.height_button_search1{
-    padding-top: 100px;
-    margin-bottom: 150px;
-}
-
-

@@ -4,8 +4,6 @@ import Home from '../pages/Home';
 import Search from '../pages/Search'
 import Last_Search from '../pages/Last_Search'
 
-/* Importar o componente Link que possui um atributo "to" e a direção para a nova Url. */
-
 const Navigation = () => {
     return(
         <Router>

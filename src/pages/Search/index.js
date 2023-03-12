@@ -1,21 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"
 import main_page_logo from './components/main_page_logo.svg';
-import Lupa from './components/Lupa.svg'
+import Button from './components/Button'
 
-import './styles.css'
-
-/* Analisar a responsividade da página -> não está ocorrendo, não sei porque.*/ 
-/* Será, primeiramente, implementado a página de busca de quando o artista encontrou a música. */
-/* Analisar a criação de um componente para o botão. -> desacoplamento */ 
+import './styles.css' 
 
 const Search = () => {
-    const navigate = useNavigate();
-
-    const goToMenu = () => {
-        navigate('/')
-    }
-
     return (
         <main className="background_search1">
             <div className="content_search1">
@@ -32,13 +21,7 @@ const Search = () => {
                             que procurava?
                         </div>
                         <div className="height_button_search1">
-                            <button onClick={() => goToMenu()}
-                                    className="new_search_button_search1">
-                                <img className="lupa_search1" src={Lupa} />
-                                <div className="nova_busca_search1">
-                                    Nova Busca
-                                </div>
-                            </button>
+                            <Button/>
                         </div>
                     </div>
                 </body>
