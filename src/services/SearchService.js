@@ -7,6 +7,7 @@ class SearchService {
             return response.data;
         } catch(error) {
             console.log('Erro ao pesquisar música', error);
+            return [];
         }
     }
 }

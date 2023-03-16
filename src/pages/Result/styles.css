@@ -1,0 +1,77 @@
+.result_background {
+    background: white;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.content_result {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_result{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 124px;
+    align-items: center;    
+    justify-content: space-between;
+    color: #219EBC;
+}
+
+.lyrics_result{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.text1_result{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    
+}
+
+.button_result {
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 3%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    background-color: transparent;
+    border-radius: 0%;
+    
+    /* identical to box height */
+    background-color: #219EBC;
+}
+
+
+.lupa_result{
+    display: flex;
+    padding-left: 30px;
+    margin: 0 auto;
+}
+
+.nova_busca_result{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.goBackFromResult{
+    color: #219EBC;
+}
