@@ -28,10 +28,12 @@ const Search = () => {
                         <div className="text1_search1">
                             Letra encontrada
                         </div>
-                        <button onClick ={() => goToResult()}
-                                className="result">
-                                <h3 className="artistresult">{location.state.artist}{"\n"}</h3>
-                                <p className="musicresult">   {location.state.music}</p>
+                        <button 
+                            onClick ={() => goToResult()}
+                            className="result"
+                        >
+                            <h3 className="artistresult">{location.state.artist}</h3>
+                            <p className="musicresult">{location.state.music}</p>
                         </button>
                         <div className="text2_search1">
                             <p>Não encontrou o que procurava?</p>

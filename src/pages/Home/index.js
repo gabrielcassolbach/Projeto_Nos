@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Input from './components/Input'
 import SearchButton from "./components/SearchButton";
 import { useNavigate } from "react-router-dom";
@@ -11,6 +11,11 @@ const Home = () => {
     const navigate = useNavigate();
     const [artist, setArtist] = useState('');
     const [music, setMusic] = useState('');
+
+    useEffect(() => {
+        let history = localStorage.getItem('@history');
+        if(history == null) localStorage.setItem('@history', '[]'); 
+    }, [])
 
     const NewPage = () => {
         SearchService.search(artist, music)
@@ -34,12 +39,16 @@ const Home = () => {
     }
   
 
+    const history = () => {
+        navigate("/last_search");
+    }
+
     return(
         <main className="background">
             <div className="content">
                 <header className="header_main_page">
                     <img src={main_page_logo} />
-                    <a href="http://google.com">Últimas buscas</a>
+                    <a onClick={() => {history()}}>Últimas buscas</a>
                 </header>
                 <body className="body_main_page">
                     <div className="main-content">
