@@ -37,7 +37,6 @@ const Home = () => {
                 console.log(error);
             });
     }
-  
 
     const history = () => {
         navigate("/last_search");

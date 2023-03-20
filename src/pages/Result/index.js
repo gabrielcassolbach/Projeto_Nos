@@ -2,14 +2,13 @@ import React, {useEffect} from 'react';
 import Logo from './components/blue_logo.svg'
 import { useLocation, useNavigate } from 'react-router-dom';
 import Button from './components/Button'
-
+ 
 import './styles.css'
  
 const Result = () => {
     const location = useLocation();
     const navigate = useNavigate();
     let entered = false;  
-
 
     const goBack = () => { 
         navigate('/search_result', {state:{
@@ -25,6 +24,8 @@ const Result = () => {
             let aux = localStorage.getItem('@history');
             let history = JSON.parse(aux);
             console.log(history);
+            if(history.length >= 10)
+                history.shift();
             history.push({
                 artist: location.state.artist,
                 music: location.state.music,
@@ -58,3 +59,4 @@ const Result = () => {
 };
 
 export default Result;
+

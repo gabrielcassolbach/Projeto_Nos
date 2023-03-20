@@ -1,0 +1,119 @@
+.background_history{
+    background: linear-gradient(180deg, #023047 0%, #000000 100%);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.content_history{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_history{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 124px;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+.title_history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button_info_history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    margin: 0 auto;
+    width: 25%;
+    margin-top: 30px;
+
+    border: 1px solid #FFB703;
+    border-radius: 4px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+
+    background-color: transparent;
+    border-radius: 0%;
+    border-color: #FFB703; 
+    color: #FFB703;
+
+    padding: 5px;
+}
+
+.music_history{
+    display: flex;
+    flex-direction: column;
+}
+
+.empty_history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last_search_button_search1{
+    border: 1px solid #FFB703;
+    border-radius: 4px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 5px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+
+    background-color: transparent;
+    border-radius: 0%;
+    border-color: #FFB703; 
+    /* identical to box height */
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #FFB703;
+}
+
+.lupa_lastsearch1{
+    display: flex;
+    padding-left: 70px;
+}
+
+.nova_busca_lastsearch1{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.empty_history{
+    color: #FFB703;   
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+}
+
