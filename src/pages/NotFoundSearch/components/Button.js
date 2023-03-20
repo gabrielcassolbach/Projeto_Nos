@@ -11,7 +11,7 @@ const Button = () => {
     const goToMenu = () => {
         navigate('/')
     }
-    
+     
     return (
         <button onClick={() => goToMenu()}
             className="new_search_button_search2">

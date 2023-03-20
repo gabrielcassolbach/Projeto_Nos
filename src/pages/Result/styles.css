@@ -69,9 +69,20 @@
     display: flex;
     width: 50%;
     margin: 0 auto;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
 }
 
 .goBackFromResult{
+    display: flex;
     color: #219EBC;
 }
 
@@ -80,4 +91,9 @@
     flex-direction: column;
     width: 40%;
     margin: 0 auto;
+}
+
+.arrow_result{
+    display: flex;
+    padding-right: 10px;
 }

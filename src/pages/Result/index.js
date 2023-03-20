@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import Logo from './components/blue_logo.svg'
 import { useLocation, useNavigate } from 'react-router-dom';
 import Button from './components/Button'
+import Arrow from './components/arrow.svg'
  
 import './styles.css'
  
@@ -23,7 +24,6 @@ const Result = () => {
             entered = true;
             let aux = localStorage.getItem('@history');
             let history = JSON.parse(aux);
-            console.log(history);
             if(history.length >= 10)
                 history.shift();
             history.push({
@@ -41,8 +41,9 @@ const Result = () => {
                 <header className='header_result'>
                     <img src = {Logo}/>
                     <a onClick={() => goBack()}
-                       className="goBackFromResult"> 
-                       Voltar para a busca 
+                       className="goBackFromResult">
+                       <img className="arrow_result" src={Arrow}/>
+                        Voltar para a busca 
                     </a>
                 </header>
                 <body className="lyrics_result">

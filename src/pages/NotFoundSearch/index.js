@@ -4,7 +4,7 @@ import Logo from './components/logo.svg'
 import Menina from './components/menina.svg'
 
 import './styles.css' 
-
+ 
 const NotFoundSearch = () => {
     return(
         <main className="background_search2">

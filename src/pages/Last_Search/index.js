@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import Logo from './components/logo.svg'
 import Button from './components/Button'
 import './styles.css'
-
+ 
 const Last_Search = () => {
     const location = useLocation();
     const [musics, setMusics] = useState([]);
@@ -36,7 +36,8 @@ const Last_Search = () => {
             <div className="content_history">
                 <header className="header_history">
                     <img src={Logo}/>
-                    <a onClick={() => clearHistory()}>Limpar Histórico</a>
+                    <a onClick={() => clearHistory()}
+                       className="clear_history">Limpar Histórico X</a>
                 </header>
                 <body>
                     <h1 className="title_history"> Histórico </h1>
