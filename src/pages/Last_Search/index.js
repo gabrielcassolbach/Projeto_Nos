@@ -29,7 +29,7 @@ const Last_Search = () => {
         setMusics([]);
         localStorage.setItem('@history', '[]'); 
     }
-
+ 
 
     return(
        <main className="background_history">

@@ -8,7 +8,7 @@ const Button = () => {
 
     const navigate = useNavigate();
 
-    const goToMenu = () => {
+    const goToMenu = () => { 
         navigate('/')
     }  
     

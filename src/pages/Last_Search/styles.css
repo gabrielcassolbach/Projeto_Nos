@@ -44,18 +44,17 @@
     border: 1px solid #FFB703;
     border-radius: 4px;
 
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 22px;
-
     background-color: transparent;
     border-radius: 0%;
     border-color: #FFB703; 
-    color: #FFB703;
 
-    padding: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFB703;
+    padding: 15px;
 }
 
 .music_history{
@@ -79,12 +78,12 @@
     width: 25%;
     margin: 0 auto;
     justify-content: center;
-    padding: 5px;
+    padding: 15px;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 22px;
 
     background-color: transparent;
@@ -107,13 +106,13 @@
     width: 50%;
     margin: 0 auto;
 }
-
+ 
 .empty_history{
     color: #FFB703;   
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 22px;
 }
 

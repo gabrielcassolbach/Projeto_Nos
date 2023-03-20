@@ -47,10 +47,10 @@ const Result = () => {
                     </a>
                 </header>
                 <body className="lyrics_result">
-                    <h3 className="lyrics">{location.state.music}</h3>
+                    <h3 className="music">{location.state.music}</h3>
                     <p className="lyrics">{location.state.lyrics}</p>
                     <h2 className="text1_result">
-                            Curtiu? Busque mais letras
+                            Curtiu? Busque mais letras.
                     </h2>
                     <Button/>
                 </body>
