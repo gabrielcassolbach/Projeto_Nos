@@ -1,4 +1,4 @@
-#Como rodar o projeto:
+Como rodar o projeto:
 
 Clone Repository
 > git clone https://github.com/gabrielcassolbach/Projeto_Nos.git
