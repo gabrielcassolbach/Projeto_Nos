@@ -19,13 +19,24 @@ const Home = () => {
 
     const NewPage = () => {
         SearchService.search(artist, music)
-            .then(response => {
+            .then(async response => {
                 console.log(response);
                 if(response.type == 'notfound' || response.type == 'song_notfound'){
                     console.log("Não encontrou a música");
                     navigate('/notfound');
                 } else {
-                    console.log('Artista: ', response.art.name, '\n Música: ', response.mus[0].name, '\n Letra: ', response.mus[0].text)  
+                    const ApiResponse = await fetch('http://localhost:1234/saveSearch', {
+                        method: 'POST',
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify({
+                            artist: response.art.name,
+                            music: response.mus[0].name,
+                            lyrics: response.mus[0].text
+                        })
+                    });
+                    const jsonreturn = await ApiResponse.json();
                     navigate('/search_result', {state:{
                         artist: response.art.name,
                         music: response.mus[0].name,
